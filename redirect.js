@@ -3,7 +3,7 @@ console.log("URL: ", url);
 if (url !== null) {
     var parser = document.createElement('a');
     parser.href = url;
-    parser.protocol = "googledocs:";
+    parser.protocol = "googledrive:";
     console.log("Redirecting to", parser.href);
     window.location = parser.href;
 }
